@@ -6,11 +6,19 @@ namespace MiguelGondres_Parcial1.Entidades
 {
     public class Articulos
     {
-        public string Nombre;
+        public int ProductoId;
+        public string Descripcion;
+        public string Existencia;
+        public decimal Costo;
+        public decimal ValorInventario;
 
         public Articulos()
         {
-            Nombre = string.Empty;
+            ProductoId = 0;
+            Descripcion = string.Empty;
+            Existencia = string.Empty;
+            Costo = 0;
+            ValorInventario = 0;
         }
     }
 }
