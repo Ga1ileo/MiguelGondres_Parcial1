@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MiguelGondres_Parcial1.UI.Registros;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,12 @@ namespace MiguelGondres_Parcial1
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void RegistroButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            Registro registro = new Registro();
+            registro.Show();
         }
     }
 }
